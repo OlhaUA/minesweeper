@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Minesweeper</h3>
+      <div class="grid scrin"></div>
+      <select id="level-select">
+        <option value="options">Your level</option>
+        <option value="20">Beginner</option>
+        <option value="35">Intermediate</option>
+      </select>
+      <div>Seconds left: <span id="time-left"></span></div>
+      <div>Mines left: <span id="mines-left"></span></div>
+      <div id="result"></div>
+      <button id="try-again">Play Again</button>
+    </div>
+  </body>
+</html>
